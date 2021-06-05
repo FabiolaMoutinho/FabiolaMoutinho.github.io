@@ -1,6 +1,36 @@
-h2, #descricao{
-    font-family:'Courier New', Courier, monospace
-  }
+body{
+    padding: 3%;
+}
+
+#descricao{
+    font-family:'Courier New', Courier, monospace;
+    position: absolute;
+    top: 36%;
+    right: 30%;
+}
   body{
     background-color: #fff1e6;
   }
+#my_picture{
+    width: 200px;
+    height: 230px;
+    float: left;
+    padding: 5px;
+    background-color: #a5a58d;
+}
+.imageContainer{
+    height: 250px;
+    position: relative;
+}
+h2{
+    font-family:'Courier New', Courier, monospace;
+    text-align: center; 
+}
+.conteudo{
+    line-height: 1.5;
+    text-align: justify;
+}
+ul.listas li:nth-child(odd){
+    width: 13%;
+    background-color: #a5a58d;
+}
